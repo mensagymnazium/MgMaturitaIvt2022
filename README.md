@@ -27,6 +27,8 @@ Výsledné hodnocení se určí takto:
 * 33 až 49 bodů - dostatečné,
 * 32 a méně bodů - nedostatečné - neuspěl(a)
 
+
+
 ## Úloha 1: Pohyb koně po šachovnici
 Mějme šachovnici s M sloupci a N řádky, počáteční pozici A a koncovou pozici B. Napište program, který určí nejmenší možný počet tahů koněm pro přesun z A do B.
 
@@ -66,4 +68,20 @@ Vstup:
 Výstup:
 4
 ```
+
+
+
+## Úloha 2: Převod zlomku na desetinné číslo s periodou
+Mějme na vstupu racionální číslo A/B (zlomek). Při převodu takového čísla na desetinný zápis někdy dojdeme na nekonečný periodický rozvoj. Např. 1/3 = 0,33333333...
+
+Napište program, který bude převádět zlomky na desetinný zápis a periodickou část označí závorkami.
+
+Příklady:
+```
+1/3 = 0.(3)
+9/7 = 1.(285714)
+45/46 = 0.9(7826086956521739130434)
+22/5 = 4.4
+```
+(poslední racionální číslo nemá nekonečný periodický rozvoj)
 
