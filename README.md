@@ -7,6 +7,8 @@ Komunikovat smíte pouze se zkoušejícím(i), ale jinak můžete používat int
 
 Pište přehledný, komentovaný, čitelný kód. Nebojte se ptát zkoušejících, v nejhorším vám neodpovíme, nebo nabídneme popostrčení kupředu za cenu bodové ztráty.
 
+Není-li předepsaný formát vstupu/výstupu, zvolte vhodnou reprezentaci dle vlastního uvážení, která vám umožní předvést funkčnost algoritmu při obhajobě (stdin-out, konzolová aplikace, GUI, ...).
+
 ### Odevzdání a obhajoba
 Založte si privátní GitHub repozitář(e), do kterého **průběžně pushujte** postup své práce. Do repozitáře [**nastavte přístup (colaborator)**](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository) pro následující GitHub účty:
 * `hakenr`
@@ -32,7 +34,7 @@ Výsledné hodnocení se určí takto:
 ## Úloha 1: Pohyb koně po šachovnici
 Mějme šachovnici s M sloupci a N řádky, počáteční pozici A a koncovou pozici B. Napište program, který určí nejmenší možný počet tahů koněm pro přesun z A do B.
 
-### Vstupy:
+### Vstupy
 * rozměry šachovnice M a N (dvě čísla)
 * souřadnice A (dvě čísla)
 * souřadnice B (dvě čísla)
@@ -40,35 +42,12 @@ Mějme šachovnici s M sloupci a N řádky, počáteční pozici A a koncovou po
 ### Výstup
 * nejmenší možný počet tahů pro přesun koně na šachovnici MxN z pole A do pole B
 
-### Příklady:
-#### Příklad 1
+### Příklady
 ```
-Vstup:
-8 8
-4 4
-4 2
-Výstup:
-2
+8x8 [4,4] [4,2] => 2 tahy
+3x3 [1,1] [2,1] => 3 tahy
+3x6 [2,1] [1,6] => 4 tahy
 ```
-#### Příklad 2
-```
-Vstup:
-3 3
-1 1
-2 1
-Výstup:
-3
-```
-#### Příklad 3
-```
-Vstup:
-3 6
-2 1
-1 6
-Výstup:
-4
-```
-
 
 
 ## Úloha 2: Převod zlomku na desetinné číslo s periodou
