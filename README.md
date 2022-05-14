@@ -34,15 +34,15 @@ Výsledné hodnocení se určí takto:
 ## Úloha 1: Pohyb koně po šachovnici
 Mějme šachovnici s M sloupci a N řádky, počáteční pozici A a koncovou pozici B. Napište program, který určí nejmenší možný počet tahů koněm pro přesun z A do B.
 
-### Vstupy
+#### Vstupy
 * rozměry šachovnice M a N (dvě čísla)
 * souřadnice A (dvě čísla)
 * souřadnice B (dvě čísla)
 
-### Výstup
+#### Výstup
 * nejmenší možný počet tahů pro přesun koně na šachovnici MxN z pole A do pole B
 
-### Příklady
+#### Příklady
 ```
 8x8 [4,4] [4,2] => 2 tahy
 3x3 [1,1] [2,1] => 3 tahy
@@ -55,7 +55,7 @@ Mějme na vstupu racionální číslo A/B (zlomek). Při převodu takového čí
 
 Napište program, který bude převádět zlomky na desetinný zápis a periodickou část označí závorkami.
 
-Příklady:
+#### Příklady
 ```
 1/3 = 0.(3)
 9/7 = 1.(285714)
