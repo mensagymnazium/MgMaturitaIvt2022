@@ -64,3 +64,36 @@ Napište program, který bude převádět zlomky na desetinný zápis a periodic
 ```
 (poslední racionální číslo nemá nekonečný periodický rozvoj)
 
+
+
+## Úloha 3: Římská kalkulačka
+Napište program, který bude sčítat římská čísla, tj. přijme na vstupu dvě kladná římská čísla a na výstup vypíše římské číslo, které je jejich součtem.
+
+#### Příklady
+```
+II + III = V
+IV + XI = XV
+XLIX + L = XCIX
+```
+
+
+## Úloha 4: Barevný trojúhelník
+Barevný trojúhelník je vytvořen z řady světel, z nichž každé má barvu červenou (R), zelenou (G), nebo modrou (B). Následující řáda je vždy tvořena o jedním světlem méně, přičemž barvy jsou odvozeny od dvou sousedních světel z předchozí řady. Pokud mají stejnou barvu, je použita v nové  řadě. Pokud se liší, v nové řadě je chybějící barva. Tak postupujeme, dokud nedojdeme k jedinému světlu. Například
+```
+R R G B R G B B
+ R B R G B R B
+  G G B R G G
+   G R G B G
+    B B R R 
+     B G R
+      R B
+       G
+ ```
+Napište program, který přijme počáteční řádek a vypíše barvu vrcholu trojúhelníku.
+
+#### Příklady
+```
+RG => B
+RBRGBRB => G
+RRGBRGBB => G
+```
