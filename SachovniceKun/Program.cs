@@ -53,7 +53,7 @@ public class Chessboard
 			throw new InvalidOperationException("Pozice mimo šachovnici.");
 		}
 
-		var distances = new int[width, height];
+		var distances = new int[width, height]; // zero-based pozicování!
 		var queue = new Queue<Tuple<int, int>>();
 		queue.Enqueue(new(startX, startY));
 
