@@ -78,7 +78,7 @@ XLIX + L = XCIX
 
 
 ## Úloha 4: Barevný trojúhelník
-Barevný trojúhelník je vytvořen z řady světel, z nichž každé má barvu červenou (R), zelenou (G), nebo modrou (B). Následující řáda je vždy tvořena o jedním světlem méně, přičemž barvy jsou odvozeny od dvou sousedních světel z předchozí řady. Pokud mají stejnou barvu, je použita v nové  řadě. Pokud se liší, v nové řadě je chybějící barva. Tak postupujeme, dokud nedojdeme k jedinému světlu. Například
+Barevný trojúhelník je vytvořen z řady světel, z nichž každé má barvu červenou (R), zelenou (G), nebo modrou (B). Následující řada je vždy tvořena o jedním světlem méně, přičemž barvy jsou odvozeny od dvou sousedních světel z předchozí řady. Pokud mají stejnou barvu, je použita v nové  řadě. Pokud se liší, v nové řadě je chybějící barva. Tak postupujeme, dokud nedojdeme k jedinému světlu. Například
 ```
 R R G B R G B B
  R B R G B R B
