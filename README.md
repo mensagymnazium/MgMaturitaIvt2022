@@ -12,6 +12,7 @@ Není-li předepsaný formát vstupu/výstupu, zvolte vhodnou reprezentaci dle v
 ### Odevzdání a obhajoba
 Založte si privátní GitHub repozitář(e), do kterého **průběžně pushujte** postup své práce. Do repozitáře [**nastavte přístup (colaborator)**](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository) pro následující GitHub účty:
 * `hakenr`
+* `KaterinD`
 
 Při závěrečné obhajobě (15 min) bude vaším úkolem představit řešení a funkčnost jednotlivých úloh:
 * vysvětlit stručně postup algoritmu,
