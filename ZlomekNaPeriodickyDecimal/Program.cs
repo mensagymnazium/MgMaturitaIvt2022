@@ -11,6 +11,10 @@
 
 	if (int.TryParse(parts[0].Trim(), out var num1) && int.TryParse(parts[1].Trim(), out var num2))
 	{
+		if (num2 == 0)
+		{
+			throw new InvalidOperationException("Nelze dělit nulou");
+		}
 		var output = FractionToPeriodicDecimal(num1, num2);
 		Console.WriteLine(output);
 	}
