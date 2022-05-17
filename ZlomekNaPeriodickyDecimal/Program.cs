@@ -11,10 +11,6 @@
 
 	if (int.TryParse(parts[0].Trim(), out var num1) && int.TryParse(parts[1].Trim(), out var num2))
 	{
-		if (num2 == 0)
-		{
-			throw new InvalidOperationException("Nelze dělit nulou");
-		}
 		var output = FractionToPeriodicDecimal(num1, num2);
 		Console.WriteLine(output);
 	}
@@ -26,6 +22,11 @@
 
 string FractionToPeriodicDecimal(int num1, int num2)
 {
+	if (num2 == 0)
+	{
+		throw new ArgumentException("Nelze dělit nulou");
+	}
+
 	int wholePart = num1 / num2;
 	int remainder = num1 % num2;
 	List<Tuple<int, int>> decimalsWithRemainders = new List<Tuple<int, int>>();
