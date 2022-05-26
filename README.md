@@ -37,8 +37,8 @@ Mějme šachovnici s M sloupci a N řádky, počáteční pozici A a koncovou po
 
 #### Vstupy
 * rozměry šachovnice M a N (dvě čísla)
-* souřadnice A (dvě čísla > 1)
-* souřadnice B (dvě čísla > 1)
+* souřadnice A (dvě čísla >= 1)
+* souřadnice B (dvě čísla >= 1)
 
 #### Výstup
 * nejmenší možný počet tahů pro přesun koně na šachovnici MxN z pole A do pole B
